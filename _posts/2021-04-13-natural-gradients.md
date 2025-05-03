@@ -73,7 +73,7 @@ Notice that this choice of a Euclidean metric is a very special case, and we can
 
 $$x_{t+1} = \argmin_x f(x_t) + \nabla f(x_t)^\top (x - x_t) + D(x, x_t).$$
 
-[Amari](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.452.7280&rep=rep1&type=pdf) showed that the steepest descent direction in general depends on the _Riemannian metric tensor_ of the parameter space. Recall that the Pythagorean theorem states that for a $p$-dimensional Euclidean parameter space and two vectors $x_t$ and $x_{t+1}$, the squared length of the vector between them $dx$ is
+[Amari](https://ieeexplore.ieee.org/document/6790500) showed that the steepest descent direction in general depends on the _Riemannian metric tensor_ of the parameter space. Recall that the Pythagorean theorem states that for a $p$-dimensional Euclidean parameter space and two vectors $x_t$ and $x_{t+1}$, the squared length of the vector between them $dx$ is
 
 $$|dx|^2 = \sum\limits_{i=1}^p (dx_i)^2$$
 
