@@ -121,7 +121,7 @@ $$\widehat{\sigma^2} = \frac12 (x_1 - \mu)^2 + \frac12 (x_2 - \mu)^2.$$
 
 When $\mu$ is known, $\widehat{\sigma^2}$ is an unbiased estimator for $\sigma^2$:
 
-\begin{align} \mathbb{E}[\widehat{\sigma^2}] &= \mathbb{E}[\frac12 (x_1^2 - 2 x_2 \mu + \mu^2 + x_2^2 - 2 x_2 \mu + \mu^2)^2] \\\ &= \frac12\mathbb{E}[x_1^2] + \frac12\mathbb{E}[x_2^2] - \mu \mathbb{E}[x_1] - \mu \mathbb{E}[x_2] + 2 \mu^2 \\\ &= \sigma^2 - 2 \mu^2 + 2 \mu^2 \\\ &= \sigma^2. \end{align}
+\begin{align} \mathbb{E}[\widehat{\sigma^2}] &= \mathbb{E}[\frac12 (x_1^2 - 2 x_1 \mu + \mu^2 + x_2^2 - 2 x_2 \mu + \mu^2)^2] \\\ &= \frac12\mathbb{E}[x_1^2] + \frac12\mathbb{E}[x_2^2] - \mu \mathbb{E}[x_1] - \mu \mathbb{E}[x_2] + 2 \mu^2 \\\ &= \sigma^2 - 2 \mu^2 + 2 \mu^2 \\\ &= \sigma^2. \end{align}
 
 However, if $\mu$ is unknown and we must use the sample estimator $\widehat{\mu}$, the variance estimator is no longer unbiased. Let's show this. 
 
